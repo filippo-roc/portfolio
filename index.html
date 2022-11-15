@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/general.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/about.css" />
+  <link rel="stylesheet" href="./css/project.css" />
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/skills.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <ion-icon size="large" id="mode" name="contrast-outline"></ion-icon>
+  <!--HEADER-->
+  <header class="header">
+    <nav class="nav">
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__item__link" href="#Home">Home</a></li>
+        <li class="menu__item"><a class="menu__item__link" href="#About">About</a></li>
+        <li class="menu__item"><a class="menu__item__link" href="#Skills">Skills</a></li>
+        <li class="menu__item"><a class="menu__item__link" href="#Projects">Projects</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </header>
+
+  <!--HOME-->
+  <section id = "Home" class="section home">
+    <main class="home-main">
+      <div class="home-container">
+        <h1 class="home-title">
+          Ciao sono <div class="special">
+            <span class="special__text">Filippo Roccamatisi</span>
+            <span class="special__effect"></span>
+          </div> un
+          Web Developer appassionato del mondo informatico.
+        </h1>
+        <div class="home-btn-container">
+          <button class="home-btn "><a class="btn btn--special" href="./Curriculum (6).pdf"> Il mio CV</a></button>
+          <button class="home-btn"><a class="btn" href="mailto:filippo.roccamatisi2003@gmail.com">Contattami</a></button>
+        </div>
+      </div>
+      <div class="home-container img-section">
+        <div class="home-img-container">
+          <img class="home-img" src="./img/my-photo2.png" alt="" />
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <!--ABOUT-->
+  <section id="About" class="section about">
+    <div class="about__item about-title-container">
+      <h1 class="about__item__title">ABOUT ME</h1>
+      <span class="special-underlining"></span>
+    </div>
+    <div class="about__item">
+      <div class="about__item__description-container">
+        <p class="about__item__description">
+          Ciao sono Filippo Roccamatisi, <br>
+          Sono uno studente delle superiori appassionato di informatica, frequento un corso di studi economico-informatico. <br>
+          Nonostante il mio corso di studi la maggior parte delle mie competenze sono da attribuire a un percorso autodidattico conseguito
+          grazie all'ausilio di corsi online e libri. <br>
+          Il mio obiettivo nel breve termine è quello di cominciare a lavorare nel settore per mettere alla prova le mie capacità e ampliare le mie
+          conoscenze.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--SKILLS-->
+  <section id="Skills" class="section skills">
+    <div class="skills__item skills-title-container">
+      <h1 class="skills__item__title">SKILLS</h1>
+      <span class="special-underlining"></span>
+    </div>
+    <div class="skills__item">
+      <ul class="skills-list">
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-html5-plain colored"></i>
+          <span>HTML</span>
+        </li>
+
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-css3-plain colored"></i>
+          <span>CSS</span>
+        </li>
+
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-javascript-plain colored"></i>
+          <span>Javascript</span>
+        </li>
+
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-nodejs-plain colored"></i>
+          <span>NodeJS</span>
+        </li>
+
+      </li>
+
+      <li class="skills-list__item">
+        <i class="dev-icon devicon-express-original colored"></i>
+        <span>Express</span>
+      </li>
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-mongodb-plain colored"></i>
+          <span>mongoDB</span>
+        </li>
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-mysql-plain colored"></i>
+          <span>MySQL</span>
+        </li>
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-react-original colored"></i>
+          <span>React</span>
+        </li>
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-cplusplus-plain colored"></i>
+          <span>C++</span>
+        </li>
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-java-plain colored"></i>
+          <span>Java</span>
+        </li>
+
+        <li class="skills-list__item">
+          <i class="dev-icon devicon-git-plain colored"></i>
+          <span>GIT</span>
+
+
+      </ul>
+    </div>
+  </section>
+
+  <!--PROJECTS-->
+  <section id ="Projects" class="section projects">
+    <div class="projects-container-title">
+      <h1 class="projects__title">PROJECTS</h1>
+      <span class="special-underlining"></span>
+    </div>
+    <ul class="projects-list">
+
+      <li class="project">
+          
+        <div class="project__img-container">
+          <img class="project__img" src="./img/project.png" alt="" />
+        </div>
+
+        <div class="project__description">
+          <h3 class="project__description__title">Ryanair</h3>
+          
+            <h4 class="project__description__technologies-title">Principali tecnologie utilizzate : </h4>
+            <ul class="project__description__technologies">
+              <li class="project__description__technologies__item">React,</li>
+              <li class="project__description__technologies__item">Node JS,</li>
+              <li class="project__description__technologies__item">MongoDB </li>
+            </ul>
+
+          <p class="project__description__paragraph">
+            Web application che riporta alcune funzionalità del sito ufficiale Ryanair. <br>
+
+            Ricerca dei voli, prenotazione dei voli, creazione di un'account e molto altro...
+          </p>
+          <div class="project-link-container">
+            <a href="https://teal-melomakarona-aecaf0.netlify.app/" class="project-link">Live</a>
+            <a href="https://github.com/filippo-roc/ryanair-client" class="project-link">Repo</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="project">
+          
+        <div class="project__img-container">
+          <img id="portfolio-img"class="project__img" src="./img/project2.png" alt="" />
+        </div>
+
+        <div class="project__description">
+          <h3 class="project__description__title">Portfolio</h3>
+          
+            <h4 class="project__description__technologies-title">Principali tecnologie utilizzate : </h4>
+            <ul class="project__description__technologies">
+              <li class="project__description__technologies__item">Html,</li>
+              <li class="project__description__technologies__item">Css,</li>
+              <li class="project__description__technologies__item">Javascript</li>
+            </ul>
+
+          <p class="project__description__paragraph">
+            Nel mio sito web personale ho voluto mantenere un design semplice e funzionale.
+                        
+          </p>
+          <div class="project-link-container">
+            <a href="/index.html" class="project-link">Live</a>
+            <a href="" class="project-link">Repo</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+  <footer class="footer">
+    <p>© Filippo Roccamatisi 2022</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./index.js"></script>
+z</body>
+
+</html>
